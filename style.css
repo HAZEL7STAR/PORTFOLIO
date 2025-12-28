@@ -1,0 +1,125 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page basics */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #111827;
+    line-height: 1.6;
+}
+
+/* Main title */
+h1 {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #111827;
+    color: #f9fafb;
+    letter-spacing: 2px;
+}
+
+/* Navigation inside #home */
+#home {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 10px 15px;
+}
+
+#home a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#home a:hover {
+    color: #38bdf8;
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 15px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Section headings */
+h2, h3 {
+    margin-bottom: 10px;
+    color: #111827;
+}
+
+/* Intro image (figure) */
+figure {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+figure img {
+    max-width: 180px;
+    border-radius: 50%;
+}
+
+/* Paragraphs and lists */
+p {
+    margin-bottom: 8px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Generic card style for skills / tools / projects lists */
+.box-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box-item {
+    padding: 8px 10px;
+    border-radius: 4px;
+    background-color: #eef2ff;
+    border: 1px solid #c7d2fe;
+    font-size: 14px;
+}
+
+/* Contact section */
+#contact a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer (if you add one) */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    background-color: #111827;
+    color: #e5e7eb;
+}
+
+/* Responsive: stack navigation links and make content fit small screens */
+@media (max-width: 768px) {
+    #home a {
+        display: block;
+        margin: 4px 0;
+    }
+
+    section {
+        padding: 15px 10px;
+    }
+}
