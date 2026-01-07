@@ -70,3 +70,19 @@ body {
     border-color: rgb(1, 1, 1);
 
 }
+#contact li>a:hover {
+    color: rgb(0, 250, 129);
+}
+#contact li>a:visited {
+    color: rgb(205, 205, 205);
+}
+h2{
+    text-shadow: 4px 4px 8px rgb(109, 116,116);
+}
+.text p>a {
+    color: rgb(87, 140, 140);
+
+}
+hr{
+    margin: 0px 100px 0px 100px;
+}
