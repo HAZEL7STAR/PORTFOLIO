@@ -7,34 +7,66 @@
     background-position: center;
     background-attachment: fixed;
 }
+main {
+    align-items: center;
+    border-width: 5px;
+    border-color: rgb(137, 251, 217);
+    text-align: justify;
+}
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50;
-    display: inline-block;
-    width: 30pc;
-    height: 4pc;
-    background-color: rgb(184, 255, 229);
-    margin: 10;
     text-align: center;
-
+}
+.contents > h2 {
+    text-align: center;
 }
 .topics P {
     display:inline-block ;
     background-color: blanchedalmond;
 }
 #home {
+    word-spacing: 50px;
     text-align: center;
-    margin: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
-#image {
+#home {
+    color: bisque;
+}
+#image img {
    border-style: solid;
    border-width: 3px;
    border-color: rgb(117, 117, 117);
+   border-radius: 100%;
    width: 190;
+   float:left;
 }
 #intro {
     padding: 100 px;
+    float: right;
 }
 .nav-btn {
-    padding: 15px;
+    display: inline-block;
+    font-size: medium;
+    font-family: sans-serif;
+    width: auto;
+    color: aliceblue;
+    padding: 3px ;
+    margin:0px 2px;
+    text-decoration: none;
+}
+.text {
+    padding: 0px 100px 0px 100px;
+    margin-left: 200;
+    line-height: 1.5;
+    font-size: 25;
+}
+body {
+    margin: 0;
+    border-style: solid;
+    border-width: 50px;
+    border-color: rgb(1, 1, 1);
+
 }
