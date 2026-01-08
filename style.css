@@ -27,6 +27,7 @@ h1 {
 }
 #home {
     word-spacing: 50px;
+    margin-top: 20px;
     text-align: center;
     position: sticky;
     top: 0;
